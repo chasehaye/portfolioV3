@@ -13,20 +13,18 @@ body {
 }
 
 /* NavBar */
-nav {
+#nav {
     width: 80vw;
     display: inline-flex;
-    border-bottom: solid;
     border-right: solid;
     border-color: gray;
-    border-width: 2px;
+    height: 6vh;
 }
 #logo {
     width: 5vw;
-    height: 4vh;
+    height: 6vh;
     border-right: solid;
     border-color: gray;
-    border-width: 2px;
     margin-left: 10vw;
     padding-left: 3vw;
     padding-right: 3vw;
@@ -35,7 +33,6 @@ nav {
 #ico {
     width: 3vw;
     height: 3vh;
-    margin-top: .5vh;
     background-color: pink;
 }
 #name {
@@ -55,6 +52,10 @@ nav {
 #carousel {
     width: 80vw;
     height: 40vh;
+    border-bottom: solid;
+    border-right: solid;
+    border-top: solid;
+    border-color: gray;
 }
 #img-container {
     display: inline-flex;
@@ -69,13 +70,15 @@ nav {
 .carousel-filler {
     width: 10vw;
 }
+/* Carousel Controller */
 #carousel-bar {
     display: inline-flex;
     width: 80vw;
     height: 5vh;
+    border-top: solid;
+    border-right: solid;
+    border-color: red;
 }
-
-/* Carousel Controller */
 #carousel-controller {
     display: inline-flex;
 }
@@ -91,6 +94,9 @@ nav {
     display: inline-flex;
     height: 30vh;
     width: 80vw;
+    border-bottom: solid;
+    border-right: solid;
+    border-color: green;
 }
 .filler {
     width: 10vw;
