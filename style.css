@@ -1,3 +1,92 @@
+* {
+    margin: 0 auto;
+}
 body {
+    background-color: white;
+    margin: 0 auto;
+}
+#main-page {
+    display: inline-flex;
+}
+#main-filler {
+    width: 20vw;
+}
+
+/* NavBar */
+nav {
+    width: 80vw;
+    display: inline-flex;
+}
+#logo {
+    width: 5vw;
+    height: 4vh;
+}
+#ico {
+    width: 3vw;
+    height: 3vh;
+    margin-left: 10vw;
+    margin-top: .5vh;
+    background-color: pink;
+}
+#name {
+    font-size: 3vh;
+    margin-top: .5vh;
+    padding-left: 11vw;
+}
+#menu-btn {
+    margin-left: 35vw;
+}
+
+/* Project Carousel dispaly*/
+#carousel {
+    width: 80vw;
+    height: 40vh;
+}
+#img-container {
+    display: inline-flex;
+}
+#proj-img {
+    background-image: url('GearBoximg1.PNG');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 35vh;
+    width: 60vw;
+}
+.carousel-filler {
+    width: 10vw;
+}
+#carousel-bar {
+    background-color: orange;
+    display: inline-flex;
+    width: 80vw;
+    height: 5vh;
+}
+
+/* Carousel Controller */
+#carousel-controller {
+    display: inline-flex;
+}
+
+/* Statement */
+#statement {
+    display: inline-flex;
+    height: 30vh;
+    width: 80vw;
+}
+.filler {
+    width: 10vw;
+}
+#statement_text {
+    width: 60vw;
+}
+
+
+
+/* Filler */
+
+/* leave contact info */
+.bottom {
     background-color: black;
 }
+
+/* foot */
