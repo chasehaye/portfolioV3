@@ -16,25 +16,39 @@ body {
 nav {
     width: 80vw;
     display: inline-flex;
+    border-bottom: solid;
+    border-right: solid;
+    border-color: gray;
+    border-width: 2px;
 }
 #logo {
     width: 5vw;
     height: 4vh;
+    border-right: solid;
+    border-color: gray;
+    border-width: 2px;
+    margin-left: 10vw;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    margin-right: 0;
 }
 #ico {
     width: 3vw;
     height: 3vh;
-    margin-left: 10vw;
     margin-top: .5vh;
     background-color: pink;
 }
 #name {
     font-size: 3vh;
     margin-top: .5vh;
-    padding-left: 11vw;
+    margin-left: 3vw;
 }
 #menu-btn {
     margin-left: 35vw;
+    border-left: solid;
+    border-color: gray;
+    border-width: 2px;
+    margin-right: 3vw;
 }
 
 /* Project Carousel dispaly*/
@@ -56,7 +70,6 @@ nav {
     width: 10vw;
 }
 #carousel-bar {
-    background-color: orange;
     display: inline-flex;
     width: 80vw;
     height: 5vh;
@@ -65,6 +78,12 @@ nav {
 /* Carousel Controller */
 #carousel-controller {
     display: inline-flex;
+}
+#project-title {
+    font-size: 2vh;
+}
+.toggle {
+    font-size: 1.5vh;
 }
 
 /* Statement */
